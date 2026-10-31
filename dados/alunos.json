@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "João",
+        "idade": "20",
+        "curso": "ADS"
+    },
+    {
+        "nome": "Maria",
+        "idade": "22",
+        "curso": "ADS"
+    },
+    {
+        "nome": "Pedro",
+        "idade": "19",
+        "curso": "Administração"
+    }
+]
