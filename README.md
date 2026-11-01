@@ -13,11 +13,11 @@ Aplicação em Python para leitura, escrita, conversão, inclusão e atualizaç�
 ## Funcionalidades
 - Leitura de arquivos CSV e JSON.
 - Conversão CSV para JSON e JSON para CSV.
-- Inclusão e atualização de registros em CSV e JSON.
+- Inclusão e atualização de registros em CSV e JSON por meio dos métodos da classe gerenciadora.
 - Backup automático em uma pasta `backups/` junto ao arquivo alterado.
 - Gravação temporária e substituição do arquivo de destino.
 - Tratamento de erros de arquivo, permissão, codificação e estrutura dos dados.
-- Menu interativo no terminal.
+- Menu interativo com opções de inclusão e atualização de registros em arquivos CSV.
 - Sete testes automatizados.
 
 ## Requisitos
@@ -44,16 +44,20 @@ O resultado esperado é a aprovação de sete testes (`OK`).
 
 ## Estrutura
 ```text
+## Estrutura
+
+```text
 TED03_Projeto_Final_Corrigido/
 ├── main.py
 ├── dados/
 │   ├── alunos.csv
-│   └── alunos.json
-├── backups/
+│   ├── alunos.json
+│   └── backups/
 ├── testes/
 │   ├── __init__.py
 │   └── test_main.py
-└── README.md
+├── README.md
+└── Relatorio_Tecnico_TED03_Final_Limpo.pdf
 ```
 
 ## Segurança dos arquivos
@@ -68,3 +72,7 @@ Antes de sobrescrever um arquivo existente, o programa cria uma cópia na pasta 
 6. Leitura de um caminho inexistente para demonstrar o tratamento de `FileNotFoundError`.
 
 As capturas locais de tela podem ser acrescentadas ao relatório, caso o professor exija evidências feitas diretamente no computador dos integrantes.
+
+## Relatório técnico
+
+O relatório técnico completo está disponível no arquivo `Relatorio_Tecnico_TED03_Final_Limpo.pdf`, localizado na raiz deste repositório.
