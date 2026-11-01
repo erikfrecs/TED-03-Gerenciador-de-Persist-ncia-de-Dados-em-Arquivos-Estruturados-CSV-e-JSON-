@@ -76,3 +76,7 @@ As capturas locais de tela podem ser acrescentadas ao relatório, caso o profess
 ## Relatório técnico
 
 O relatório técnico completo está disponível no arquivo `Relatorio_Tecnico_TED03_Final_Limpo.pdf`, localizado na raiz deste repositório.
+
+## Declaração de uso de IA
+
+A declaração de uso de Inteligência Artificial está disponível no arquivo `Declaracao_Uso_de_IA.pdf`, localizado na raiz deste repositório.
